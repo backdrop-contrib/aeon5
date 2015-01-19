@@ -1,0 +1,4 @@
+name = Aeon5
+description = Aeon5 theme port for Backdrop
+backdrop = 1.x
+stylesheets[all][] = style.css
