@@ -2,3 +2,5 @@ name = Aeon5
 description = A simple, minimalistic, responsive theme.
 backdrop = 1.x
 stylesheets[all][] = style.css
+settings[max_width] = 960
+; settings[color] = true
