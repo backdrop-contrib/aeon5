@@ -1,7 +1,7 @@
 Aeon5
 =====
 
-A simple, minimalistic, fixed width theme.
+A simple, minimalistic, responsive theme.
 
 Installation
 ------------
