@@ -42,12 +42,6 @@ h1 {
 }
 
 h2 {
-  background: #a8d0d4;
-  background: -moz-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a8d0d4), color-stop(100%, #7a9aa8));
-  background: -webkit-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
-  background: -ms-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
-  background: linear-gradient(to bottom, #a8d0d4 0%, #7a9aa8 100%);
   border: 1px solid #fff;
   color: #fff;
   font-size: 16px;
@@ -103,12 +97,6 @@ footer p {
   border-bottom-left-radius: 5px;
   padding: 10px;
   margin-bottom: 5px;
-  background: #a8d0d4;
-  background: -moz-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a8d0d4), color-stop(100%, #7a9aa8));
-  background: -webkit-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
-  background: -ms-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
-  background: linear-gradient(to bottom, #a8d0d4 0%, #7a9aa8 100%);
 }
 
 .l-footer {
@@ -116,6 +104,15 @@ footer p {
   padding-top: 10px;
   font-size: 10px;
   text-align: right;
+}
+
+.l-header, h2 {
+  background: #a8d0d4;
+  background: -moz-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a8d0d4), color-stop(100%, #7a9aa8));
+  background: -webkit-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
+  background: -ms-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
+  background: linear-gradient(to bottom, #a8d0d4 0%, #7a9aa8 100%);
 }
 
 .layout--two-column .l-sidebar {
@@ -148,6 +145,7 @@ footer p {
 
 .l-header .name-and-slogan {
   float: left;
+  color: #fff;
 }
 
 .l-header .site-name {
@@ -274,12 +272,6 @@ label {
 .js .dropbutton-widget {
   color: #555;
   border: 1px solid #aaa;
-  background-color: #e6e6e6;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#ccc));
-  background-image: -webkit-linear-gradient(top, #e6e6e6, #ccc);
-  background-image: -moz-linear-gradient(top, #e6e6e6, #ccc);
-  background-image: -ms-linear-gradient(top, #e6e6e6, #ccc);
-  background-image: linear-gradient(to bottom, #e6e6e6, #ccc);
 }
 
 .js .dropbutton-widget a {
@@ -331,6 +323,7 @@ label {
  * Primary tabs
  */
 ul.primary li a {
+  color: #555;
   margin-right: 5px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -338,7 +331,7 @@ ul.primary li a {
 
 ul.primary li.active a,
 ul.primary li.active a:hover {
-  color: #688494;
+  color: #555;
   background: #e8eaea;
   border-color: #bbb;
   border-bottom: #e8eaea 1px solid;
@@ -364,6 +357,12 @@ th, td {
 th {
   color: #555;
   border: 1px solid #aaa;
+}
+
+.form-submit,
+.form-select,
+.js .dropbutton-widget,
+th {
   background-color: #e6e6e6;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#ccc));
   background-image: -webkit-linear-gradient(top, #e6e6e6, #ccc);
