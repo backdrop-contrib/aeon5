@@ -80,6 +80,20 @@ footer p {
 /**
  * Layout
  */
+a.hamburger {
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: 1px solid #fff;
+  padding: 4px;
+  border-radius: 3px;
+  float: right;
+  margin-top: 16px;
+}
+
+#nav {
+  display: none;
+}
 
 .l-container {
   background: #eaeaea;
@@ -97,6 +111,7 @@ footer p {
   border-bottom-left-radius: 5px;
   padding: 10px;
   margin-bottom: 5px;
+  position: relative;
 }
 
 .l-footer {
@@ -150,34 +165,41 @@ footer p {
 
 .l-header .site-name {
   font-size: 22px;
-  margin-top: 10px;
+  margin-top: 6px;
   font-weight: bold;
 }
 
-.l-header .block-menu {
+#nav {
   clear: both;
 }
 
-.l-header .block-menu ul,
-.l-header .block-menu li {
+#nav ul,
+#nav li {
   list-style: none;
   margin: 0;
   padding: 0;
   color: #fff;
 }
 
-.l-header .block-menu li {
-  display: inline-block;
-}
-
-.l-header .block-menu li a {
-  display: inline-block;
-  padding: 0 10px;
+#nav li a {
   font-weight: bold;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 0;
 }
 
-.l-header .block-menu li a:hover {
+#nav li a:hover {
   background: rgba(0, 0, 0, 0.05);
+}
+
+#nav li {
+  display: block;
+}
+
+#nav li.last a {
+  border: none;
 }
 
 ul.menu {
@@ -448,6 +470,7 @@ div.error {
  * Media queries for responsive
  */
 @media all and (min-width: 851px) {
+
   .layout {
     max-width: 960px;
     margin: 0 auto;
@@ -481,11 +504,26 @@ div.error {
     padding: 0 0 0 12px;
   }
 
-  .l-header .block-menu {
+  a.hamburger {
+    display: none;
+  }
+
+  #nav {
     float: right;
     text-align: right;
     margin-top: 46px;
     clear: none;
+    display: block;
+  }
+
+  #nav li {
+    display: inline-block;
+  }
+
+  #nav li a {
+    font-size: 13px;
+    padding: 0 10px;
+    border: none;
   };
 }
 

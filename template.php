@@ -42,6 +42,7 @@ function aeon5_preprocess_page(&$variables) {
 function _aeon5_color_schemes() {
   return array(
     'Original Teal' => array('link' => '688494', 'from' => 'a8d0d4', 'to' => '7a9aa8'),
+    'Stellar Blue' => array('link' => '2f427f', 'from' => '8598d5', 'to' => '2f427f'),
     'Tasty Tomato' => array('link' => 'b55254', 'from' => 'cd7b7b', 'to' => 'b55254'),
     'Blue Sky' => array('link' => '5a95cf', 'from' => '63abdb', 'to' => '5a95cf'),
     'Silver Gray' => array('link' => '688494', 'from' => 'c0c0c0', 'to' => 'a3a3a3'),
