@@ -9,7 +9,7 @@ Installation
 - Install this theme using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/themes
 
-- There are no settings for this theme.
+- Settings for page width and color scheme /admin/appearance/settings/aeon5.
 
 License
 -------
