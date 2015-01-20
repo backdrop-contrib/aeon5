@@ -64,11 +64,12 @@
       <?php print $action_links; ?>
       <?php print $content['content']; ?>
     </main>
+
+    <?php if ($content['footer']): ?>
+      <div class="l-footer">
+        <?php print $content['footer']; ?>
+      </div>
+    <?php endif; ?>
   </div>
 
-  <?php if ($content['footer']): ?>
-    <div class="l-footer">
-      <?php print $content['footer']; ?>
-    </div>
-  <?php endif; ?>
 </div>

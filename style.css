@@ -111,6 +111,13 @@ footer p {
   background: linear-gradient(to bottom, #a8d0d4 0%, #7a9aa8 100%);
 }
 
+.l-footer {
+  clear: both;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: right;
+}
+
 .layout--two-column .l-sidebar {
   padding: 0 10px 0 0;
 }
@@ -169,6 +176,10 @@ footer p {
   display: inline-block;
   padding: 0 10px;
   font-weight: bold;
+}
+
+.l-header .block-menu li a:hover {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 ul.menu {

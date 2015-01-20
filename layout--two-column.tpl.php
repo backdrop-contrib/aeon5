@@ -79,11 +79,11 @@
         <?php print $content['sidebar']; ?>
       </div>
     <?php endif; ?>
-  </div>
 
-  <?php if ($content['footer']): ?>
-    <div class="l-footer">
-      <?php print $content['footer']; ?>
-    </div>
-  <?php endif; ?>
+    <?php if ($content['footer']): ?>
+      <div class="l-footer">
+        <?php print $content['footer']; ?>
+      </div>
+    <?php endif; ?>
+  </div>
 </div>
