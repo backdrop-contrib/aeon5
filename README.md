@@ -3,6 +3,8 @@ Aeon5
 
 A simple, minimalistic, responsive theme.
 
+![Screenshot](screenshot.png)
+
 Installation
 ------------
 
