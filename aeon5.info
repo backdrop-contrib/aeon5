@@ -3,5 +3,6 @@ description = A simple, minimalistic, responsive theme.
 backdrop = 1.x
 scripts[] = js/site.js
 stylesheets[all][] = style.css
+stylesheets[all][] = css/colors.css
+settings[color] = true
 settings[max_width] = 960
-settings[color_scheme] = teal

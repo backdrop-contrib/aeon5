@@ -1,0 +1,30 @@
+/**
+ * @file
+ */
+
+body {
+  color: #777777;
+}
+
+.l-header, h2 {
+  color: #ffffff;
+  background: #a8d0d4;
+  background: -moz-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a8d0d4), color-stop(100%, #7a9aa8));
+  background: -webkit-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
+  background: -ms-linear-gradient(top, #a8d0d4 0%, #7a9aa8 100%);
+  background: linear-gradient(to bottom, #a8d0d4 0%, #7a9aa8 100%);
+}
+
+a {
+  color: #688494;
+}
+
+a:hover,
+a:focus {
+}
+
+a:active {
+}
+
+
