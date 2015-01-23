@@ -6,6 +6,8 @@
  *
  */
 
+require_once DRUPAL_ROOT . '/' . drupal_get_path('theme', 'aeon5') . '/includes/settings.inc';
+
 $form['max_width'] = array(
   '#type' => 'select',
   '#title' => t('Theme max width'),
@@ -21,4 +23,5 @@ $form['color_scheme'] = array(
   '#options' => backdrop_map_assoc(array_keys(_aeon5_color_schemes())),
   '#description' => t('Set color scheme preset (does not require color module).'),
 );
+
 
