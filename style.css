@@ -296,6 +296,15 @@ label {
   border: 1px solid #aaa;
 }
 
+.color-form .form-text,
+.color-form .form-select {
+  width: auto;
+}
+
+.color-form label {
+  width: 15em;
+}
+
 .js .dropbutton-widget a {
   color: #555;
 }
