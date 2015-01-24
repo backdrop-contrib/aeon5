@@ -1,7 +1,7 @@
 Aeon5
 =====
 
-A simple, minimalistic, responsive theme.
+A simple, minimalistic, responsive theme with Color module support.
 
 ![Screenshot](screenshot.png)
 
