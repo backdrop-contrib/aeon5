@@ -1,6 +1,8 @@
 Aeon5
 =====
 
+[![Join the chat at https://gitter.im/backdrop-contrib/aeon5](https://badges.gitter.im/backdrop-contrib/aeon5.svg)](https://gitter.im/backdrop-contrib/aeon5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A simple, minimalistic, responsive theme with Color module support.
 
 ![Screenshot](screenshot.png)
